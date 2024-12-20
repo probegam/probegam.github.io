@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Base path for the app -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- Sayfa Başlığı ve Açıklama -->
+  <title>Rusya Üniversitelerinin Resmi Danışmanı</title>
+  <meta name="description" content="Rusya'da üniversite eğitimi için resmi kayıt merkezi. Güvenilir hizmet!">
+
+  <!-- Open Graph (OG) Etiketleri -->
+  <meta property="og:title" content="Rusya Üniversitelerinin Resmi Danışmanı">
+  <meta property="og:description" content="Rusya'da üniversite eğitimi için resmi kayıt merkezi. Güvenilir hizmet!">
+  <meta property="og:image" content="images/banner1.jpg">
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Etiketleri -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rusya Üniversitelerinin Resmi Danışmanı">
+  <meta name="twitter:description" content="Rusya'da üniversite eğitimi için resmi kayıt merkezi. Güvenilir hizmet!">
+  <meta name="twitter:image" content="images/banner1.jpg">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="rusya_uni">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.ico">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- JavaScript ile Dinamik URL Ayarlama -->
+  <script>
+    document.querySelector('meta[property="og:url"]').setAttribute('content', window.location.href);
+  </script>
+</head>
+
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+
+</html>
